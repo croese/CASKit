@@ -21,6 +21,8 @@ extension VeryLongTests {
     //   `swift test --generate-linuxmain`
     // to regenerate.
     static let __allTests__VeryLongTests = [
+        ("testEquality", testEquality),
+        ("testThatItCanBeCreatedFromAnInt", testThatItCanBeCreatedFromAnInt),
         ("testThatItCanBeCreatedFromAString", testThatItCanBeCreatedFromAString),
         ("testThatItCanBeNegative", testThatItCanBeNegative),
         ("testThatItCanBePositive", testThatItCanBePositive),
